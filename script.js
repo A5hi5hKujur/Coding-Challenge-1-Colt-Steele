@@ -70,4 +70,5 @@ function submitForm(event)
   localStorage.removeItem('unlock');
   localStorage.removeItem('email');
   localStorage.removeItem('password');
+  location.reload(); 
 }
